@@ -23,6 +23,15 @@
             letter-spacing: 2px;
             text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
         }
+        h2 {
+            text-align: center;
+            color: #c9c7c6; /* Colore caldo per il titolo */
+            margin-top: 40px;
+            font-size: 36px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+        }
 
         .glossario {
             width: 80%;
@@ -112,8 +121,8 @@
 </head>
 <body>
 
-<h1>Glossario - Elettrodomestici in Spagnolo</h1>
-
+<h1>Glossario Spagnolo 2024/2025</h1>
+<h2>Elettrodomestici</h2>
 <div class="glossario">
     <!-- Inizio del glossario -->
     <div class="termine" onclick="toggleDetails('frigorifico')">
@@ -196,9 +205,88 @@
         <p class="descrizione">Descrizione (Italiano): Dispositivo per ascoltare trasmissioni audio, musica e notizie.</p>
         <p class="descrizione">Descripción (Español): Dispositivo para escuchar transmisiones de audio, música y noticias.</p>
     </div>
+</div>
 
-    <!-- Aggiungi gli altri termini nello stesso formato -->
+<h2>La Fruta</h2>
 
+<div class="glossario">
+    <!-- Glossario di frutta -->
+    <div class="termine" onclick="toggleDetails('manzana')">LA MANZANA</div>
+    <div class="detagli" id="manzana">
+        <p class="traduzione">Traduzione: LA MELA</p>
+        <p class="descrizione">Descrizione (Italiano): Frutto succoso e dolce, di colore rosso, verde o giallo.</p>
+        <p class="descrizione">Descripción (Español): Fruto jugoso y dulce, de color rojo, verde o amarillo.</p>
+    </div>
+
+    <div class="termine" onclick="toggleDetails('naranja')">LA NARANJA</div>
+    <div class="detagli" id="naranja">
+        <p class="traduzione">Traduzione: L'ARANCIA</p>
+        <p class="descrizione">Descrizione (Italiano): Agrume di colore arancione, ricco di vitamina C.</p>
+        <p class="descrizione">Descripción (Español): Cítrico de color naranja, rico en vitamina C.</p>
+    </div>
+
+    <div class="termine" onclick="toggleDetails('platano')">EL PLÁTANO</div>
+    <div class="detagli" id="platano">
+        <p class="traduzione">Traduzione: LA BANANA</p>
+        <p class="descrizione">Descrizione (Italiano): Frutto tropicale giallo, ricco di potassio.</p>
+        <p class="descrizione">Descripción (Español): Fruto tropical amarillo, rico en potasio.</p>
+    </div>
+
+    <div class="termine" onclick="toggleDetails('uvas')">LAS UVAS</div>
+    <div class="detagli" id="uvas">
+        <p class="traduzione">Traduzione: L'UVA</p>
+        <p class="descrizione">Descrizione (Italiano): Piccoli frutti dolci che crescono in grappoli, usati per fare il vino.</p>
+        <p class="descrizione">Descripción (Español): Pequeños frutos dulces que crecen en racimos, usados para hacer vino.</p>
+    </div>
+
+    <div class="termine" onclick="toggleDetails('fresa')">LA FRESA</div>
+    <div class="detagli" id="fresa">
+        <p class="traduzione">Traduzione: LA FRAGOLA</p>
+        <p class="descrizione">Descrizione (Italiano): Frutto rosso e dolce con piccoli semi sulla superficie.</p>
+        <p class="descrizione">Descripción (Español): Fruto rojo y dulce con pequeñas semillas en su superficie.</p>
+    </div>
+
+    <div class="termine" onclick="toggleDetails('sandia')">LA SANDÍA</div>
+    <div class="detagli" id="sandia">
+        <p class="traduzione">Traduzione: L'ANGURIA</p>
+        <p class="descrizione">Descrizione (Italiano): Frutto grande e succoso, con polpa rossa e semi neri.</p>
+        <p class="descrizione">Descripción (Español): Fruto grande y jugoso, con pulpa roja y semillas negras.</p>
+    </div>
+
+    <div class="termine" onclick="toggleDetails('melon')">EL MELÓN</div>
+    <div class="detagli" id="melon">
+        <p class="traduzione">Traduzione: IL MELONE</p>
+        <p class="descrizione">Descrizione (Italiano): Frutto dolce e rinfrescante, con polpa arancione o verde.</p>
+        <p class="descrizione">Descripción (Español): Fruto dulce y refrescante, de pulpa anaranjada o verde.</p>
+    </div>
+
+    <div class="termine" onclick="toggleDetails('limon')">EL LIMÓN</div>
+    <div class="detagli" id="limon">
+        <p class="traduzione">Traduzione: IL LIMONE</p>
+        <p class="descrizione">Descrizione (Italiano): Agrume giallo, dal sapore acido, ricco di vitamina C.</p>
+        <p class="descrizione">Descripción (Español): Cítrico amarillo, de sabor ácido, rico en vitamina C.</p>
+    </div>
+
+    <div class="termine" onclick="toggleDetails('pina')">LA PIÑA</div>
+    <div class="detagli" id="pina">
+        <p class="traduzione">Traduzione: L'ANANAS</p>
+        <p class="descrizione">Descrizione (Italiano): Frutto tropicale dolce e succoso, con buccia ruvida.</p>
+        <p class="descrizione">Descripción (Español): Fruta tropical dulce y jugosa, con cáscara rugosa.</p>
+    </div>
+
+    <div class="termine" onclick="toggleDetails('mango')">EL MANGO</div>
+    <div class="detagli" id="mango">
+        <p class="traduzione">Traduzione: IL MANGO</p>
+        <p class="descrizione">Descrizione (Italiano): Frutto tropicale con polpa arancione e dolce.</p>
+        <p class="descrizione">Descripción (Español): Fruto tropical de pulpa anaranjada y dulce.</p>
+    </div>
+</div>
+    <div class="termine" onclick="toggleContent('contenuto10')">El Mango</div>
+    <div id="contenuto10" class="contenuto">
+        <p><strong>Traduzione:</strong> Il mango</p>
+        <p><strong>Spagnolo:</strong> Fruta tropical de pulpa anaranjada y dulce.</p>
+        <p><strong>Italiano:</strong> Frutto tropicale con polpa arancione e dolce.</p>
+    </div>
 </div>
 
 <div class="footer">
